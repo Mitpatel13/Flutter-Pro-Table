@@ -1,0 +1,38 @@
+name: flutter_pro_table
+description: A fully responsive, feature-rich Flutter data table for iOS, Android & Web with pagination, sorting, filtering, cell merging, expandable rows, frozen columns, themes and selection.
+version: 0.2.1
+homepage: https://github.com/Mitpatel13/Flutter-Pro-Table
+repository: https://github.com/Mitpatel13/Flutter-Pro-Table
+issue_tracker: https://github.com/Mitpatel13/Flutter-Pro-Table/issues
+
+environment:
+  sdk: ^3.5.0
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+
+topics:
+  - table
+  - datatable
+  - grid
+  - pagination
+  - responsive
+
+screenshots:
+  - description: 'Full demo with multi-select, search, pagination and status badges (dark theme).'
+    path: screenshots/screenshot_1.png
+  - description: 'Frozen / pinned columns — Name pinned left, Salary pinned right.'
+    path: screenshots/screenshot_2.png
+  - description: 'Merged cells using rowSpan and columnSpan via ProCellSpan.'
+    path: screenshots/screenshot_3.png
+  - description: 'Animated skeleton loading state while data loads.'
+    path: screenshots/screenshot_4.png
